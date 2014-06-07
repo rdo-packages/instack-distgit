@@ -2,7 +2,7 @@
 
 Name:			instack
 Version:		0.0.4
-Release:		2%{?dist}
+Release:		3%{?dist}
 Summary:		OpenStack installation tool for diskimage-builder style elements
 Group:			Development/Languages
 License:		ASL 2.0
@@ -41,6 +41,9 @@ openstack-tripleo-image-elements.
 %{python2_sitelib}/*.egg-info
 
 %changelog
+* Sat Jun 07 2014 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.0.4-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_21_Mass_Rebuild
+
 * Tue Apr 08 2014 James Slagle <jslagle@redhat.com> 0.0.4-2
 - Build with tito
 
