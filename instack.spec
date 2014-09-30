@@ -44,6 +44,9 @@ openstack-tripleo-image-elements.
 * Mon Sep 29 2014 James Slagle <jslagle@redhat.com> 0.0.5-1
 - Release 0.0.5
 
+* Sat Jun 07 2014 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.0.4-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_21_Mass_Rebuild
+
 * Tue Apr 08 2014 James Slagle <jslagle@redhat.com> 0.0.4-2
 - Build with tito
 
