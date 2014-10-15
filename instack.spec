@@ -1,7 +1,7 @@
 %global repo_name instack
 
 Name:			instack
-Version:		0.0.5
+Version:		0.0.6
 Release:		1%{?dist}
 Summary:		OpenStack installation tool for diskimage-builder style elements
 Group:			Development/Languages
@@ -41,6 +41,9 @@ openstack-tripleo-image-elements.
 %{python2_sitelib}/*.egg-info
 
 %changelog
+* Wed Oct 15 2014 James Slagle <jslagle@redhat.com> 0.0.6-1
+- Bump to  0.0.6
+
 * Mon Sep 29 2014 James Slagle <jslagle@redhat.com> 0.0.5-1
 - Release 0.0.5
 
