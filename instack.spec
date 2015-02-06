@@ -1,8 +1,8 @@
 %global repo_name instack
 
 Name:			instack
-Version:		0.0.6
-Release:		1%{?dist}
+Version:		XXX
+Release:		XXX%{?dist}
 Summary:		OpenStack installation tool for diskimage-builder style elements
 Group:			Development/Languages
 License:		ASL 2.0
@@ -25,7 +25,7 @@ OpenStack locally from both diskimage-builder elements and
 openstack-tripleo-image-elements.
 
 %prep
-%setup -q
+%setup -q -n %{name}-%{upstream_version}
 
 %build
 %{__python2} setup.py build
