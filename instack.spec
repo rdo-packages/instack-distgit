@@ -1,15 +1,21 @@
+%global commit0 c9a6516ad4d9140dc3806fdb997de5bff3f7843b
+%global shortcommit0 %(c=%{commit0}; echo ${c:0:7})
+
+%{!?upstream_version: %global upstream_version %{version}}
 %global repo_name instack
 
 Name:			instack
-Version:		XXX
-Release:		XXX%{?dist}
+Version:		0.0.8
+Release:		1%{?dist}
 Summary:		OpenStack installation tool for diskimage-builder style elements
 Group:			Development/Languages
 License:		ASL 2.0
 URL:			https://github.com/agroup/instack
-Source0:		https://github.com/agroup/%{name}/releases/download/%{version}/%{name}-%{version}.tar.gz
+# Once we have stable branches and stable releases we can go back to using release tarballs
+Source0:  https://github.com/openstack/%{name}/archive/%{commit0}.tar.gz#/%{name}-%{shortcommit0}.tar.gz
 
 BuildArch:		noarch
+BuildRequires:      git
 BuildRequires:		python-setuptools
 BuildRequires:		python2-devel
 BuildRequires:		python-d2to1
@@ -25,7 +31,7 @@ OpenStack locally from both diskimage-builder elements and
 openstack-tripleo-image-elements.
 
 %prep
-%setup -q -n %{name}-%{upstream_version}
+%autosetup -n %{name}-%{commit0} -S git
 
 %build
 %{__python2} setup.py build
@@ -41,6 +47,9 @@ openstack-tripleo-image-elements.
 %{python2_sitelib}/*.egg-info
 
 %changelog
+* Mon Oct 19 2015 John Trowbridge <trown@redhat.com> - 0.0.8-1
+- Use a source tarball for a git hash that has passed delorean CI for liberty release
+
 * Wed Oct 15 2014 James Slagle <jslagle@redhat.com> 0.0.6-1
 - Bump to  0.0.6
 
