@@ -20,7 +20,7 @@ Requires:		diskimage-builder
 
 %description
 Instack is an installation tool for diskimage-builder style elements. It
-installs the the elements onto the running system, and can be used to install
+installs the elements onto the running system, and can be used to install
 OpenStack locally from both diskimage-builder elements and
 openstack-tripleo-image-elements.
 
