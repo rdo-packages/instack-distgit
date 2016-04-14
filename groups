@@ -1,5 +1,5 @@
-# UUID          Group Name
-6ddfecad023c6f4fa3ac8c4d2583c502ea675a73 	Non-Interactive Users
-af19f93a8bd491f713cf992993f60f99c0217208       	instack-distgit-core
-6c97accb7a0824161d6f612ac275fabbd1439bb5        	instack-distgit-ptl
-global:Registered-Users		Registered Users
+# UUID                                  	Group Name
+#
+6c97accb7a0824161d6f612ac275fabbd1439bb5	openstack/instack-distgit-ptl
+af19f93a8bd491f713cf992993f60f99c0217208	instack-distgit-core
+global:Registered-Users                 	Registered Users
