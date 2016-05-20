@@ -10,6 +10,7 @@ URL:			https://github.com/agroup/instack
 Source0:		https://github.com/agroup/%{name}/releases/download/%{version}/%{name}-%{version}.tar.gz
 
 BuildArch:		noarch
+BuildRequires:		git
 BuildRequires:		python-setuptools
 BuildRequires:		python2-devel
 BuildRequires:		python-d2to1
@@ -25,7 +26,7 @@ OpenStack locally from both diskimage-builder elements and
 openstack-tripleo-image-elements.
 
 %prep
-%setup -q -n %{name}-%{upstream_version}
+%autosetup -n %{name}-%{upstream_version} -S git
 
 %build
 %{__python2} setup.py build
