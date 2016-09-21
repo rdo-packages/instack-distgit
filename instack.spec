@@ -16,7 +16,6 @@ BuildRequires:		python2-devel
 BuildRequires:		python-d2to1
 BuildRequires:		python-pbr
 
-Requires:		python-argparse
 Requires:		diskimage-builder
 
 %description
