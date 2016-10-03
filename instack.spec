@@ -81,3 +81,4 @@ openstack-tripleo-image-elements.
 
 * Tue Feb 18 2014 James Slagle <jslagle@redhat.com> 0.0.1-1
 - Initial rpm build.
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/instack/commit/?id=5aabf5caf3c62384b1b027ca1b6f2aa3166a0ab3
