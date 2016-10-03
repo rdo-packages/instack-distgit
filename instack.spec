@@ -7,8 +7,8 @@ Release:		XXX%{?dist}
 Summary:		OpenStack installation tool for diskimage-builder style elements
 Group:			Development/Languages
 License:		ASL 2.0
-URL:			https://github.com/agroup/instack
-Source0:		https://github.com/agroup/%{name}/releases/download/%{version}/%{name}-%{version}.tar.gz
+URL:			https://github.com/openstack/instack
+Source0:		https://tarballs.openstack.org/%{repo_name}/%{repo_name}-%{upstream_version}.tar.gz
 
 BuildArch:		noarch
 BuildRequires:		git
