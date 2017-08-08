@@ -17,7 +17,9 @@ BuildRequires:		python2-devel
 BuildRequires:		python-d2to1
 BuildRequires:		python-pbr
 
-Requires:		diskimage-builder
+Requires:		diskimage-builder >= 1.1.2
+Requires:		python-pbr >= 2.0.0
+Requires:		python-babel >= 2.3.4
 
 %description
 Instack is an installation tool for diskimage-builder style elements. It
