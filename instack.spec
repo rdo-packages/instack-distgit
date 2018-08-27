@@ -2,8 +2,8 @@
 %global repo_name instack
 
 Name:			instack
-Version:		XXX
-Release:		XXX%{?dist}
+Version:		9.1.0
+Release:		1%{?dist}
 Summary:		OpenStack installation tool for diskimage-builder style elements
 Group:			Development/Languages
 License:		ASL 2.0
@@ -48,3 +48,6 @@ openstack-tripleo-image-elements.
 %{python2_sitelib}/*.egg-info
 
 %changelog
+* Mon Aug 27 2018 RDO <dev@lists.rdoproject.org> 9.1.0-1
+- Update to 9.1.0
+
