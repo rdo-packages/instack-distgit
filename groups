@@ -1,7 +1,7 @@
 # UUID Group Name
 global:Registered-Users	Registered Users
 0384ce6322b3244bf7bd9f6818d37e6e55dfb22f	openstack/instack-ptl
-6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Non-Interactive Users
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Service Users
 4c999ae36a1258c1b6dba5d8d290ea7b6cc1751f	openstack/instack-core
 401cf37bee35d1c809d4d957e55f2a304f8eed69	rdo-provenpackagers
 global:Anonymous-Users	Anonymous Users
